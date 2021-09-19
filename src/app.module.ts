@@ -16,7 +16,7 @@ import { PessoasService } from './pessoas.service';
       port: 3307,
       username: process.env.USUARIO_BANCO_DADOS,
       password: process.env.SENHA_BANCO_DADOS,
-      database: 'livraria',
+      database: 'pessoa',
       autoLoadModels: true,
       synchronize: true,
     }),
